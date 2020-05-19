@@ -1,0 +1,12 @@
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\bin\Debug\Interfaz.exe.config
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\bin\Debug\Interfaz.exe
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\bin\Debug\Interfaz.pdb
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Properties.Resources.resources
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.csproj.GenerateResource.cache
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.exe
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.pdb
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Score.resources
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Arkanoid.resources
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.GameForm.resources
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Instrucciones.resources
