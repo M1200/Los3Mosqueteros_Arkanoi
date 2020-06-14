@@ -10,3 +10,4 @@ C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a
 C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.csprojResolveAssemblyReference.cache
 C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.GameForm.resources
 C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Instrucciones.resources
+C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Inscription.resources

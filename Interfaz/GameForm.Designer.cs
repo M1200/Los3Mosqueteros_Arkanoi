@@ -54,8 +54,9 @@ namespace Interfaz
             // 
             // Player
             // 
-            this.Player.BackColor = System.Drawing.Color.White;
+            this.Player.BackColor = System.Drawing.Color.Transparent;
             this.Player.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("Player.BackgroundImage")));
+            this.Player.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Player.Location = new System.Drawing.Point(326, 414);
             this.Player.Name = "Player";
             this.Player.Size = new System.Drawing.Size(144, 24);
@@ -64,7 +65,9 @@ namespace Interfaz
             // 
             // ball
             // 
-            this.ball.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (255)))), ((int) (((byte) (192)))), ((int) (((byte) (192)))));
+            this.ball.BackColor = System.Drawing.Color.Transparent;
+            this.ball.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("ball.BackgroundImage")));
+            this.ball.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ball.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ball.Location = new System.Drawing.Point(386, 385);
             this.ball.Name = "ball";
@@ -81,16 +84,17 @@ namespace Interfaz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ball);
             this.Controls.Add(this.Player);
             this.Controls.Add(this.ScoreLabel);
             this.Cursor = System.Windows.Forms.Cursors.PanNW;
+            this.Location = new System.Drawing.Point(15, 15);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "GameForm";
-            this.Text = "Arkanoid";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.KeyIsDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.KeyisUp);
             ((System.ComponentModel.ISupportInitialize) (this.Player)).EndInit();

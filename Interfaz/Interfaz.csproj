@@ -58,6 +58,12 @@
     <Compile Include="GameForm.Designer.cs">
       <DependentUpon>GameForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inscription.Designer.cs">
+      <DependentUpon>Inscription.cs</DependentUpon>
+    </Compile>
     <Compile Include="Instrucciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GameForm.resx">
       <DependentUpon>GameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inscription.resx">
+      <DependentUpon>Inscription.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Instrucciones.resx">
       <DependentUpon>Instrucciones.cs</DependentUpon>
@@ -105,6 +114,23 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Arkanoid_Taito_Arcade_Pixel_Art_Xtreme_Retro_2.png" />
+    <Content Include="Resources\generatedtext.png" />
+    <Content Include="Resources\generatedtext__1_.png" />
+    <Content Include="Resources\generatedtext__2_.png" />
+    <Content Include="Resources\Imagen1.png" />
+    <Content Include="Resources\Imagen2.png" />
+    <Content Include="Resources\Imagen3.png" />
+    <Content Include="Resources\Imagen4.png" />
+    <Content Include="Resources\Imagen5.png" />
+    <Content Include="Resources\Imagen6.png" />
+    <Content Include="Resources\Imagen7.png" />
+    <Content Include="Resources\personalizado.png" />
+    <Content Include="Resources\personalizado__1_.png" />
+    <Content Include="Resources\Player.png" />
+    <Content Include="Resources\_3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

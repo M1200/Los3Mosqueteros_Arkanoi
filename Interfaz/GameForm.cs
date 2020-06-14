@@ -10,11 +10,11 @@ namespace Interfaz
         private bool movetotheLeft;
         private bool isgameOver;
         private int score, ballX, ballY, speedPlayer;
-        private int lives=3;
-        private Random rnd = new Random(); 
+        private int lives = 3;
+        private Random rnd = new Random();
         private PictureBox[] creatingBlocks;
-        
-        
+
+
         //Inicializa forma de Game y los Bloques que se ocuparán
         public GameForm()
         {
@@ -25,16 +25,16 @@ namespace Interfaz
         //Funcionamiento del juego, muestra los scores y la cantidad de vidas disponibles
         private void mainGameTimerEvent(object sender, EventArgs e)
         {
-             
+
             //string scoreText = score.ToString();
-            ScoreLabel.Refresh();
-            
+
             if (movetotheLeft == true && Player.Left > 0)
             {
                 Player.Left -= speedPlayer;
-                
-            } 
-            if (movetotheRigth == true && Player.Left <654)
+
+            }
+
+            if (movetotheRigth == true && Player.Left < 654)
             {
                 Player.Left += speedPlayer;
             }
@@ -78,26 +78,27 @@ namespace Interfaz
                     }
                 }
             }
-            
-            if (score == 2000 ){
-            //Gano el juego
-            
-            gameOver("You win!! See You soon!");
+
+            if (score == 2000)
+            {
+                //Gano el juego
+
+                gameOver("You win!! See You soon!");
             }
 
             if (ball.Top > 489)
             {
-             //Pierde una vida 
-             lives -= 1;
-             gameOver("You lose a life. You have "+ lives+ " lives left");
+                //Pierde una vida 
+                lives -= 1;
+                gameOver("You lose a life. You have " + lives + " lives left");
 
-             if (lives == 0)
-             {
-                 //Pierde el juego
-                 gameOver("GAME OVER");
-             }
+                if (lives == 0)
+                {
+                    //Pierde el juego
+                    gameOver("GAME OVER");
+                }
             }
-            
+
         }
 
         //Finaliza el juego, crea un menssage para mostrar cuando el juego termina por vidas o por puntos
@@ -123,7 +124,7 @@ namespace Interfaz
                 creatingBlocks[i].Height = 32;
                 creatingBlocks[i].Width = 100;
                 creatingBlocks[i].Tag = "blocks";
-                creatingBlocks[i].BackColor= Color.Fuchsia;
+                creatingBlocks[i].BackColor = Color.Fuchsia;
 
                 if (a == 5)
                 {
@@ -139,10 +140,11 @@ namespace Interfaz
                     creatingBlocks[i].Top = top;
                     this.Controls.Add(creatingBlocks[i]);
                     left = left + 130;
-                    
+
                 }
 
             }
+
             setUpGame();
         }
 
@@ -168,22 +170,24 @@ namespace Interfaz
             ball.Left = 386;
             ball.Top = 385;
             Player.Left = 326;
-            
+
             //score.ToString("Score: " + score);
-           // string scoreText = score.ToString();
-           gameTime.Start();
+            // string scoreText = score.ToString();
+
+            gameTime.Start();
 
             foreach (Control x in this.Controls)
             {
                 if (x is PictureBox && (string) x.Tag == "blocks")
                 {
-                    x.BackColor = Color.FromArgb(rnd.Next(256), rnd.Next(256),rnd.Next(256));
+                    x.BackColor = Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256));
                     //ScoreLabel.Refresh();
                 }
+
             }
         }
-        
-        
+
+
         //Crea el movimiento de la pieza Player hacía la izquierda
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
@@ -198,28 +202,30 @@ namespace Interfaz
             }
 
         }
-        
+
         /*Crea el movimiento de la pieza Player hacía la derecha, además de que crea el evento enter
         donde el usuario presina la tecla enter para reinicializar todo el juego */
         private void KeyisUp(object sender, KeyEventArgs e)
         {
             switch (e.KeyCode)
             {
-             case Keys.Left:
-                 movetotheLeft = false;
-                 break;
-             case Keys.Right:
-                 movetotheRigth = false;
-                 break;
-             case Keys.Enter:
-                 if (isgameOver == true)
-                 {
-                     
-                     removeBlocs();
-                     placeBlocks();   
-                 }
-                 break;
+                case Keys.Left:
+                    movetotheLeft = false;
+                    break;
+                case Keys.Right:
+                    movetotheRigth = false;
+                    break;
+                case Keys.Enter:
+                    if (isgameOver == true)
+                    {
+
+                        removeBlocs();
+                        placeBlocks();
+                    }
+
+                    break;
             }
         }
+
     }
 }

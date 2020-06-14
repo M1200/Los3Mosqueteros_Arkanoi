@@ -14,8 +14,8 @@ namespace Interfaz
 
         private void Play_Click(object sender, EventArgs e)
         {
-            GameForm game = new GameForm();
-            game.Show();
+            Inscription inscription = new Inscription();
+            inscription.Show();
             this.Hide();
         }
 
