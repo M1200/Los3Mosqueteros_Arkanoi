@@ -11,3 +11,17 @@ C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a
 C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.GameForm.resources
 C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Instrucciones.resources
 C:\Users\MENDOZA\Documents\María José\UCA\Ciclo01-20\Programación Orientada a objetos\Proyecto Final\Interfaz\obj\Debug\Interfaz.Inscription.resources
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\bin\Debug\Interfaz.exe.config
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\bin\Debug\Interfaz.exe
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\bin\Debug\Interfaz.pdb
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.csprojAssemblyReference.cache
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.Arkanoid.resources
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.GameForm.resources
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.Inscription.resources
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.Instrucciones.resources
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.Properties.Resources.resources
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.Score.resources
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.csproj.GenerateResource.cache
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.exe
+C:\Users\rubenisb\Desktop\Proyecto\Los3Mosqueteros_Arkanoid\Interfaz\obj\Debug\Interfaz.pdb
