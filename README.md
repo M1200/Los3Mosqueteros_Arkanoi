@@ -20,7 +20,7 @@
 * ¿Por qué hay un bloque negro irrompible? Eso es para añadirle más dinamismo al juego. Lo vemos como un reto que se les ha puesto a todos los jugadores
 * ¿Cuántos niveles tiene el juego? Solo uno, para hacerlo entretenido y que no se les vaya la paciencia
 
-#Trello
+## Trello
 Link de Trello:
 * https://trello.com/b/tVkXKcTL/arkanoid-final
 
