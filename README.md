@@ -19,6 +19,8 @@
 * ¿Por qué la pelota es lenta? Así se ha diseñado el juego, para con ello hacerlo un poco más accequible para todos
 * ¿Por qué hay un bloque negro irrompible? Eso es para añadirle más dinamismo al juego. Lo vemos como un reto que se les ha puesto a todos los jugadores
 * ¿Cuántos niveles tiene el juego? Solo uno, para hacerlo entretenido y que no se les vaya la paciencia
+* ¿Cuáles son los controles juego? Moviendo el mouse se mueve la pieza player (plataforma) y enter para hacer que la bola se mueva
+
 
 ## Trello
 Link de Trello:
