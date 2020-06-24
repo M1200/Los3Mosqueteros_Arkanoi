@@ -1,0 +1,31 @@
+CREATE DATABASE "Arkanoid"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1;
+
+CREATE TABLE public."PLAYER"
+(
+    nickname character varying(10) NOT NULL,
+    score integer,
+    CONSTRAINT pk_nickname PRIMARY KEY (nickname)
+);
+
+ALTER TABLE public."PLAYER"
+    OWNER to postgres;
+
+CREATE TABLE public."SCORES"
+(
+    "idScore" serial NOT NULL,
+    "nickPlayer" character varying(10) NOT NULL,
+    score integer NOT NULL,
+    CONSTRAINT "pk_idScore" PRIMARY KEY ("idScore"),
+    CONSTRAINT "fk_nickPlayer" FOREIGN KEY ("nickPlayer")
+        REFERENCES public."PLAYER" (nickname) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+        NOT VALID
+);
+
+ALTER TABLE public."SCORES"
+    OWNER to postgres;
